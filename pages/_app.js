@@ -1,5 +1,6 @@
-import '../styles/globals.css'
+// import '../styles/globals.css'
 import Layout from '../components/Layout';
+import 'tailwindcss/tailwind.css';
 
 function MyApp({ Component, pageProps }) {
   const getLayout = Component.getLayout || ((page) => page);

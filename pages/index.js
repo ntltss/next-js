@@ -15,7 +15,9 @@ export default function Home() {
           </Link>
         </li>
       </ul>
-      <h1>Hello Next.js</h1>
+      <h1 className="text-5xl text-green-500 text-center">Hello Next.js</h1>
+
+      
     </div>
     </>
   );
